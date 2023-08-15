@@ -25,7 +25,7 @@ textarea {
     display: block;
     margin: 1rem;
     padding: 1rem;
-    margin-left: 4rem;
+    margin-left: 2rem;
 }
 
 #output {
@@ -39,8 +39,8 @@ textarea {
     padding: 1rem;
 }
 .out-head{
-    margin-top: 1rem;
-    /* padding: 1rem; */
+    /* margin-top: 1rem; */
+     padding: 1rem; 
 
     
 }
@@ -58,7 +58,7 @@ h2{
 }
 #btn-translate{
     
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     padding: 1rem;
     font-size: large;
     border-radius: 1rem;
