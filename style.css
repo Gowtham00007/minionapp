@@ -1,15 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
- 
 body{
-    font-family: 'Pacifico', cursive;
+     font-family: 'Pacifico', cursive; 
+
+}
+.head-ul{
+    list-style: none;
+    padding-inline-start: 0px;
+}
+.name{
+    font-weight: bold;
+    font-size: 1rem;
+    color: #FFFFFF;
 }
 
-nav h1{
+
+.name2{
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+
+
+
+
+
+.head-li{
+    text-align: center;
+    display: inline;
+    padding: 0rem 0.9rem;
+
+}
+nav div img{
+   margin-bottom: -0.5rem;
+    border-radius: 5rem;
+    height: 3rem;
+    width: 3rem;
+}
+ .head-div {
 
     background-color: #00A884;
-    padding: 1rem;
-    text-align: center;
-    margin-top: -0.5rem;
+    padding: 0.3rem;
+    margin-top: 0.5rem;
 
 
 }
@@ -38,11 +69,9 @@ textarea {
     /* margin: 1rem; */
     padding: 1rem;
 }
-.out-head{
-    /* margin-top: 1rem; */
-     /* padding: 1rem;  */
-
-    
+.symbol{
+    margin-top: -1.7rem;
+    margin-left: 12rem;
 }
 footer{
     
@@ -64,4 +93,14 @@ h2{
     font-size: large;
     border-radius: 1rem;
 
+}
+
+.material-symbols-outlined {
+    color: #FFFFFF;   
+
+  /* font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48 */
 }

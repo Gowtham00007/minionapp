@@ -6,20 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>minion language</title>
  
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+
+
+
     <link rel="stylesheet" href="style.css">
     
 </head>
 
 <body>
     <nav>
-    <h1> MINION    LANGUAGE</h1>
+    <div class="head-div">
+        <ul class="head-ul ">
+            
+            <li class="head-li">  <img src="data:image/jpeg;base64,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" alt="pic">   </li>
+            <li class="head-li  name " >    MINION   </li>
+            <li class="head-li name2"> ONLINE</li>
+                  
+                  
+            <li class="head-li">  <span class="material-symbols-outlined">
+                video_call
+                </span> </li>
+
+            <li class="head-li">     <span class="material-symbols-outlined">
+                call
+                </span>    </li>
+        
+                <li class="head-li">   <span class="material-symbols-outlined">
+                    more_vert
+                    </span></li>
+ 
+               
+
+        </ul> 
+         
+         </div>
     </nav>
    
     <textarea id="txt-input"
          placeholder="put your sentence in English here and we will convert it to banana"></textarea> 
     <button id="btn-translate">Translate to bannana language </button>
 
-    <div class="out-head" style="font-size: larger;"> Output will come here 
+    <div  class="out-head" style="font-size: larger;"> Output will come here </div>
+    <div class="symbol">
         <img src="https://em-content.zobj.net/source/microsoft-teams/363/backhand-index-pointing-down_light-skin-tone_1f447-1f3fb_1f3fb.png"
  srcset="https://em-content.zobj.net/source/microsoft-teams/363/backhand-index-pointing-down_light-skin-tone_1f447-1f3fb_1f3fb.png 2x" alt="Backhand Index Pointing Down: Light Skin Tone on Microsoft Teams 15.0" width="40" height="35">
     </div>
