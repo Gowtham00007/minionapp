@@ -5,7 +5,7 @@ An entertaining text translation app that converts your input into the playful l
 
 # How to use:
  - Enter text
- - Click on trnslate button
+ - Click on translate button
  - view and have fun by Re-generating texts.
 # Programming Language:
  - html
